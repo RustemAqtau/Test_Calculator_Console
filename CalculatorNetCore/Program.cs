@@ -6,12 +6,17 @@ namespace CalculatorNetCore
     {
         static void Main(string[] args)
         {
-            //    Console.WriteLine("Для выхода наберите Q");
-                Console.WriteLine("Деление '\'\n" +
-                    "Вычитание '-'\n" +
-                     "Сумма '+'\n," +
-                     "Умножение '*'");
-                Console.WriteLine("*****************************");
+
+            // Console.BackgroundColor = ConsoleColor.Green;
+  Console.WriteLine("Инструкция приложения калькулятор");
+  Console.WriteLine("\tДеление '/'\n" +
+                    "\tВычитание '-'\n" +
+                     "\tСумма '+'\n" +
+                     "\tУмножение '*'\n");
+
+
+                Console.WriteLine("*****************************\n");
+
 
             bool isProgramActive = true;
             int firstNumber, secondNumber;
@@ -19,46 +24,54 @@ namespace CalculatorNetCore
 
             do
             {
-                Console.WriteLine("Введите число: ");
+                Console.Write("Введите число: ");
                // firstNumber = int.Parse(Console.ReadLine());
 
                 while (!Int32.TryParse(Console.ReadLine(), out firstNumber))
                 {
                     Console.WriteLine("Введите правильные данные");
+                    Console.Write("Введите первое число: ");
                 }
 
-                Console.WriteLine("Введите второе число: ");
+                Console.Write("Введите второе число: ");
                 // secondNumber = int.Parse(Console.ReadLine());
               
                  while (!Int32.TryParse(Console.ReadLine(), out secondNumber))
                 {
                     Console.WriteLine("Введите правильные данные");
+                    Console.Write("Введите второе число: ");
                 }
 
                 int resultOperation;
                 // char operation = Console.ReadLine();
-                Console.WriteLine("введите операцию: ");
+                Console.Write("введите операцию: ");
                 operation = Console.ReadLine();
 
                 switch (operation)
                 {
                     case "+":
                         Console.WriteLine("Результат: {0} - {1}", firstNumber, secondNumber);
+                        Console.WriteLine("Для продолжения нажмите любую клавишу");
                         break;
                     case "-":
                         resultOperation = firstNumber - secondNumber;
                         Console.WriteLine("Результат: {0}", resultOperation);
+                        Console.WriteLine("Для продолжения нажмите любую клавишу");
                         break;
                     case "*":
                         resultOperation = firstNumber * secondNumber;
                         Console.WriteLine("Результат: {0}", resultOperation);
+                        Console.WriteLine("Для продолжения нажмите любую клавишу");
                         break;
                     case "/":
                         resultOperation = firstNumber / secondNumber;
                         Console.WriteLine("Результат: {0}", resultOperation);
+                        Console.WriteLine("Для продолжения нажмите любую клавишу");
                         break;
                     default:
+                     //   if(operation != "-" || operation != "+" || operation != "*" || operation!= "/")
                         Console.WriteLine("Введите правильную операцию");
+
                         break;
                 }
 
