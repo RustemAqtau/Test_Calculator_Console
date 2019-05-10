@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{CF8B7DAB-CF6C-49BA-AC2E-CD1A02D1E0AA}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CalculatorNetCore/Program.cs">
+    <Files>
+      <File FileName="CalculatorNetCore/Program.cs" Line="77" Column="5" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CalculatorNetCore" expanded="True">
+            <Node name="CalculatorNetCore" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.CalculatorNetCore FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

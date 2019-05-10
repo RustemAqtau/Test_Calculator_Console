@@ -1,0 +1,11 @@
+/Users/rus/Projects/CalculatorNetCore/CalculatorNetCore/bin/Debug/netcoreapp2.1/CalculatorNetCore.deps.json
+/Users/rus/Projects/CalculatorNetCore/CalculatorNetCore/bin/Debug/netcoreapp2.1/CalculatorNetCore.runtimeconfig.json
+/Users/rus/Projects/CalculatorNetCore/CalculatorNetCore/bin/Debug/netcoreapp2.1/CalculatorNetCore.runtimeconfig.dev.json
+/Users/rus/Projects/CalculatorNetCore/CalculatorNetCore/bin/Debug/netcoreapp2.1/CalculatorNetCore.dll
+/Users/rus/Projects/CalculatorNetCore/CalculatorNetCore/bin/Debug/netcoreapp2.1/CalculatorNetCore.pdb
+/Users/rus/Projects/CalculatorNetCore/CalculatorNetCore/obj/Debug/netcoreapp2.1/CalculatorNetCore.csprojAssemblyReference.cache
+/Users/rus/Projects/CalculatorNetCore/CalculatorNetCore/obj/Debug/netcoreapp2.1/CalculatorNetCore.csproj.CoreCompileInputs.cache
+/Users/rus/Projects/CalculatorNetCore/CalculatorNetCore/obj/Debug/netcoreapp2.1/CalculatorNetCore.AssemblyInfoInputs.cache
+/Users/rus/Projects/CalculatorNetCore/CalculatorNetCore/obj/Debug/netcoreapp2.1/CalculatorNetCore.AssemblyInfo.cs
+/Users/rus/Projects/CalculatorNetCore/CalculatorNetCore/obj/Debug/netcoreapp2.1/CalculatorNetCore.dll
+/Users/rus/Projects/CalculatorNetCore/CalculatorNetCore/obj/Debug/netcoreapp2.1/CalculatorNetCore.pdb
